@@ -1,0 +1,19 @@
+{
+    "name": "sukohi/page-title",
+    "description": "Your package description here.",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "test@example.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukohi\\PageTitle\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
