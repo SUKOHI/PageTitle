@@ -1,0 +1,23 @@
+{
+    "name": "sukohi/page-title",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "capilano.whoops-report@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sukohi\\PageTitle\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
