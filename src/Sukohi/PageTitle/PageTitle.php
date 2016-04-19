@@ -50,6 +50,13 @@ class PageTitle {
 
 		}
 
+		if(count($current_routes) != count($title_targets) ||
+			count($current_routes) != count($title_replacements)) {
+
+			throw new \Exception('Route name not matched.');
+
+		}
+
 		$page_title = str_replace($title_targets, $title_replacements, $pattern);
 		$this->_page_titles[$pattern_key][$current_route] = $page_title;
 		return $page_title;
