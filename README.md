@@ -24,7 +24,7 @@ Also alias
     
 And then  execute the next command to publish the view
 
-    php artisan view:publish sukohi/page-title
+    php artisan config:publish sukohi/page-title
 
 # Preparation
 
